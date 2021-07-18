@@ -25,8 +25,19 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-        }
-         
+        } 
+    }
+    void Start()
+    {
+        string filePath = Application.persistentDataPath + "/PlayerScore.file";
+        FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate);
+        BinaryReader br = new BinaryReader(fs);
+
+        highscore = (br.ReadInt32());
+        fs.Close();
+        br.Close();
+        highScoreText.text = highscore.ToString();
+        //highscore = PlayerPrefs.GetInt("highscore");
     }
     public void DecrementTimer()
     {
@@ -58,21 +69,10 @@ public class GameManager : MonoBehaviour
             bw.Close();
         }
     }
-
     // Update is called once per frame
     void Update()
     {
         timeLeft -= Time.deltaTime;
-        DecrementTimer();
-
-        //highscore = PlayerPrefs.GetInt("highscore");
-        string filePath = Application.persistentDataPath + "/PlayerScore.file";
-        FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate);
-        BinaryReader br = new BinaryReader(fs);
-
-        highscore = (br.ReadInt32());
-        fs.Close();
-        br.Close();
-        highScoreText.text = highscore.ToString();
+        DecrementTimer();        
     }
 }

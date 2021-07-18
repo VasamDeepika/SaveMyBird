@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 14385480}
   - component: {fileID: 14385482}
   - component: {fileID: 14385481}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: HealthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.999985, y: 264}
+  m_AnchoredPosition: {x: 53.999985, y: 268}
   m_SizeDelta: {x: 188.1795, y: 46.3955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14385481
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 64540093}
   - component: {fileID: 64540092}
   - component: {fileID: 64540096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 109367676}
   - component: {fileID: 109367678}
   - component: {fileID: 109367677}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -366, y: 264}
+  m_AnchoredPosition: {x: -366, y: 268}
   m_SizeDelta: {x: 188.1795, y: 46.3955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109367677
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 270001965}
   - component: {fileID: 270001967}
   - component: {fileID: 270001966}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -303, y: 264}
+  m_AnchoredPosition: {x: -303, y: 268}
   m_SizeDelta: {x: 188.1795, y: 46.3955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &270001966
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 313416109}
   - component: {fileID: 313416108}
   - component: {fileID: 313416107}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -539,7 +539,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -547,8 +547,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 424716433
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &313416110
 RectTransform:
@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 1116520496}
   - component: {fileID: 1116520498}
   - component: {fileID: 1116520497}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: HighScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,7 +1124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144.9, y: 264}
+  m_AnchoredPosition: {x: -144.9, y: 268}
   m_SizeDelta: {x: 188.1795, y: 46.3955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116520497
@@ -1223,7 +1223,7 @@ GameObject:
   - component: {fileID: 1342564494}
   - component: {fileID: 1342564496}
   - component: {fileID: 1342564495}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: TimeLeftText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1246,7 +1246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 273, y: 250}
+  m_AnchoredPosition: {x: 273, y: 268}
   m_SizeDelta: {x: 262.9951, y: 110.1074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1342564495
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 1631551379}
   - component: {fileID: 1631551381}
   - component: {fileID: 1631551380}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: HealthNumText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1407,7 +1407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110.6, y: 264}
+  m_AnchoredPosition: {x: 110.6, y: 268}
   m_SizeDelta: {x: 188.1795, y: 46.3955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1631551380
@@ -1463,7 +1463,7 @@ GameObject:
   - component: {fileID: 1641601567}
   - component: {fileID: 1641601569}
   - component: {fileID: 1641601568}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: highScoretext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1486,7 +1486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58.2, y: 262}
+  m_AnchoredPosition: {x: -58.2, y: 268}
   m_SizeDelta: {x: 188.1795, y: 46.3955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641601568
@@ -1542,7 +1542,7 @@ GameObject:
   - component: {fileID: 1778059135}
   - component: {fileID: 1778059137}
   - component: {fileID: 1778059136}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: TimerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1565,7 +1565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 383, y: 253}
+  m_AnchoredPosition: {x: 383, y: 268}
   m_SizeDelta: {x: 262.9951, y: 110.1074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1778059136

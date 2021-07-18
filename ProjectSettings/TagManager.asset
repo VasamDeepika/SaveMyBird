@@ -3,15 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Undefined
+  - Enemy
+  - Food
+  - Life
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ForeGround
   - Water
   - UI
-  - 
+  - BackGround
   - 
   - 
   - 
@@ -40,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ForeGround
+    uniqueID: 424716433
     locked: 0
